@@ -1,7 +1,7 @@
 ## Import required packages
 library(tidyverse)
 library(dplyr)
-library(cowplot)
+library(cowplot) # simple add-on to ggplot
 library(scales)
 library(readxl)
 library(cetcolor) # For heatmap color gradient

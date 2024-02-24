@@ -26,3 +26,8 @@ https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_county_500k.zip
 Florida Population 2021 downloaded from FloridaCHART
 
 https://www.flhealthcharts.gov/FLQUERY_New/Population/Count
+
+
+Data for Age-adjusted Deaths From All Causes, Rate Per 100,000 Population by county in Fl from 2018-2022 downloaded from 
+
+https://www.flhealthcharts.gov/ChartsDashboards/rdPage.aspx?rdReport=Death.DataViewer&cid=0269

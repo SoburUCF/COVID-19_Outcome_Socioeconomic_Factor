@@ -30,6 +30,7 @@ Florida Population 2021 downloaded from FloridaCHART
 
 https://www.flhealthcharts.gov/FLQUERY_New/Population/Count
 
+## Age-adjusted all-cause death
 
 Data for Age-adjusted Deaths From All Causes, Rate Per 100,000 Population by county in Fl from 2018-2022 downloaded from 
 

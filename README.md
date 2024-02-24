@@ -7,7 +7,7 @@ https://www.medrxiv.org/content/10.1101/2024.01.26.24301823v2
 
 
 
-## Variation in COVID-19 outcome as case rate and mortality rate in Florida
+## COVID-19 Case rate and mortality rate 
 US average cases per 100k population and average death per 100k population data (Rolling Averages) were collected 
 from https://github.com/nytimes/covid-19-data/tree/master/rolling-averages 
 

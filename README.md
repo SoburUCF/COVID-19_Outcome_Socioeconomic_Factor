@@ -1,5 +1,8 @@
-# COVID-19_Outcome_Socioeconomic_Factor
-
+# COVID-19 Outcomes and Socioeconomic Factors
+## An ecological study of COVID-19 outcomes among Florida counties
+This study assessed the role of socioeconomic, demographic, and health-related factors in intercounty variation in COVID-19 outcomes as case rate, mortality rate, and case fatality ratio. 
+The manuscript link in preprint: 
+https://www.medrxiv.org/content/10.1101/2024.01.26.24301823v2
 
 
 

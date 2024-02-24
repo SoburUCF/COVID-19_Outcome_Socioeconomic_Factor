@@ -22,3 +22,7 @@ Or direct link
 
 https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_county_500k.zip
 
+
+Florida Population 2021 downloaded from FloridaCHART
+
+https://www.flhealthcharts.gov/FLQUERY_New/Population/Count

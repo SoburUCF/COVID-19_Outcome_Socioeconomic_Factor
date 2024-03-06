@@ -140,77 +140,8 @@ ggplot(fldata_all, aes(x = date, y = county, fill = deathrate)) +
         legend.position = "right")
 
 
-#### Change the color of the county
 
-# Create a new column to specify the label color based on Urban or Rural
-fldata_all$label_color <- ifelse(fldata_all$county %in% urban_counties, "Urban", "Rural")
-
-library(ggplot2)
-library(cetcolor)
-
-# Your data frame
-# fldata_all <- ...
-
-ggplot(fldata_all, aes(x = date, y = county, fill = deathrate)) +
-  geom_tile() +
-  scale_fill_gradientn(
-    name = "log(Mortality Rate)",
-    colors = cet_pal(4, name = "r2"),
-    trans = "log"
-  ) +
-  scale_y_discrete(labels = function(x) {
-    ifelse(x == "Urban", scales::label_color()(x, "orange"),
-           scales::label_color()(x, "skyblue"))
-  })
-library(cetcolor)
-
-color_vector <- ifelse(fldata_all$label_color == "Urban", "orange", "skyblue")
-
-ggplot(fldata_all, aes(x = date, y = county, fill = deathrate)) +
-  geom_tile() +
-  scale_fill_gradientn(
-    name = "log(Mortality Rate)",
-    colors = cet_pal(4, name = "r2"),
-    trans = "log"
-  ) +
-  scale_y_discrete(labels = scales::label_color()(color_vector))
-
-library(ggplot2)
-library(cetcolor)
-
-# Your data frame
-# fldata_all <- ...
-
-# Create a color vector based on the 'label_color' column
-color_vector <- ifelse(fldata_all$label_color == "Urban", "orange", "skyblue")
-
-# Define custom labels with colors
-custom_labels <- scales::label_manual(
-  values = setNames(color_vector, fldata_all$county)
-)
-
-ggplot(fldata_all, aes(x = date, y = county, fill = deathrate)) +
-  geom_tile() +
-  scale_fill_gradientn(
-    name = "log(Mortality Rate)",
-    colors = cet_pal(4, name = "r2"),
-    trans = "log"
-  ) +
-  scale_y_discrete(labels = custom_labels)
-
-
-
-#filtered_data <- fldata_all[fldata_all$deathrate > 0, ]
-
-# Create the heatmap with filtered data
-heatmap_plot <- ggplot(filtered_data, aes(x = date, y = county, fill = deathrate)) +
-  geom_tile() +
-  scale_fill_gradientn(name = "log(Mortality Rate)", colors = (cet_pal(4, name = "r2")), trans = "log") +
-  labs(x = "Time", y = "Counties") +
-  theme_minimal()
-
-
-## Total Case Rate and Mortality Rate bar plot 
+##### Total Case Rate and Mortality Rate bar plot ########
 
 # Create a separate data frame for total caserate per county
 total_casmor_rate <- fldata_all %>%

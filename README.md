@@ -1,17 +1,18 @@
 # COVID-19 Outcomes and Socioeconomic Factors
 ### An ecological study of COVID-19 outcomes among Florida counties
 This study assessed the role of socioeconomic, demographic, and health-related factors in intercounty variation in COVID-19 outcomes as case rate, mortality rate, and case fatality ratio. 
-The manuscript link in preprint: 
-https://www.medrxiv.org/content/10.1101/2024.01.26.24301823v2
+The manuscript citation:
+Ali, S., Azarian, T. An ecological study of COVID-19 outcomes among Florida counties. BMC Public Health 25, 579 (2025). https://doi.org/10.1186/s12889-025-21764-x 
 
-
-
+link: https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-21764-x 
 
 ### COVID-19 Case rate and mortality rate 
 US average cases per 100k population and average death per 100k population data (Rolling Averages) were collected 
 from https://github.com/nytimes/covid-19-data/tree/master/rolling-averages 
 
-
+### COVID-19 vaccination rate 
+COVID-19 Vaccinations in the United States, Jurisdiction, CDC
+https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc/about_data 
 
 
 ### Florida County map

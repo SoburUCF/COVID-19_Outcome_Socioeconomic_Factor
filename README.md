@@ -11,7 +11,8 @@ US average cases per 100k population and average death per 100k population data 
 from https://github.com/nytimes/covid-19-data/tree/master/rolling-averages 
 
 ### COVID-19 vaccination rate 
-COVID-19 Vaccinations in the United States, Jurisdiction, CDC <br />
+COVID-19 Vaccinations in the United States, Jurisdiction, CDC  <br />
+REFRESH THE PAGE AFTER THE LINK OPENS <br />
 https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc/about_data 
 
 
